@@ -19,7 +19,7 @@
 ## Layout Approach
 
 - Page layout is built with inline style attributes on container elements.
-- The header uses a large serif font (`Times New Roman`) to evoke a magazine masthead.
+- The header uses a large serif font (`UnifrakturMaguntia`) to evoke a magazine masthead.
 - Article cards and pages use subtle blue backgrounds, white panels, and modern spacing.
 - The footer provides contact details and social media links on every page.
 
