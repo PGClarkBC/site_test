@@ -29,7 +29,9 @@ Landing Page (index.html)
 - **Purpose**: Display specific content related to each respective topic
 - **Responsibility**: Present content relevant to that page's purpose
 - **Key Elements**:
+  - Header (matching across all subordinate pages)
   - Page-specific content
+  - Footer (matching across all subordinate pages)
   - "Back to Landing Page" or "Home" link for navigation return
   - Consistent styling with the landing page
 
