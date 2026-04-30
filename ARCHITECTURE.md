@@ -1,37 +1,56 @@
 # Architecture
 
-## Site Structure
+## Overview
 
-- `index.html` — The magazine home page with the masthead, featured article cards, and footer.
-- `article1.html` through `article5.html` — Five dedicated article pages for the full text experience.
-- `PRODUCT.md` — Product description and user experience summary.
-- `ARCHITECTURE.md` — Structural overview and design rationale.
-- `CONTRIBUTING.md` — Contribution and publishing guidance.
-- `README.md` — Repository summary and usage notes.
+This website follows a simple hierarchical structure consisting of a central landing page that serves as the primary entry point and navigation hub, with three subordinate pages accessible from the landing page.
 
-## Design Principles
+## Architecture Diagram
 
-- **Static-first**: The website uses only HTML, inline CSS, and inline SVG elements.
-- **No external assets**: There are no external style sheets, scripts, or image files.
-- **Responsive layout**: The landing page card grid adapts to available width using CSS grid semantics.
-- **Consistent branding**: Each page includes the same header and footer treatment.
+```
+Landing Page (index.html)
+    ├── Subordinate Page 1
+    ├── Subordinate Page 2
+    └── Subordinate Page 3
 
-## Layout Approach
+(Each subordinate page links back to Landing Page)
+```
 
-- Page layout is built with inline style attributes on container elements.
-- The header uses a large serif font (`UnifrakturMaguntia`) to evoke a magazine masthead.
-- Article cards and pages use subtle blue backgrounds, white panels, and modern spacing.
-- The footer provides contact details and social media links on every page.
+## System Structure
+
+### Landing Page
+- **Purpose**: Serves as the main entry point and navigation hub for the website
+- **Responsibility**: Provides navigation links to all three subordinate pages
+- **Key Elements**:
+  - Navigation menu or link section directing users to each subordinate page
+  - Site title/branding
+  - Optional introductory content
+
+### Subordinate Pages (Page 1, Page 2, Page 3)
+- **Purpose**: Display specific content related to each respective topic
+- **Responsibility**: Present content relevant to that page's purpose
+- **Key Elements**:
+  - Page-specific content
+  - "Back to Landing Page" or "Home" link for navigation return
+  - Consistent styling with the landing page
 
 ## Navigation Flow
 
-1. User arrives at `index.html`.
-2. User clicks one of the five article cards.
-3. Browser navigates to the selected `articleN.html` page.
-4. The article page includes a return link to the landing page.
+1. Users land on the **Landing Page**
+2. From the landing page, users can navigate to any of the three **Subordinate Pages** via direct links
+3. From any **Subordinate Page**, users can return to the **Landing Page** using the back/home link
+4. Navigation is bidirectional but limited: subordinate pages do not link to each other directly
 
-## Tech Notes
+## Design Principles
 
-- The site is ready for GitHub Pages or any static file hosting.
-- Inline SVG is used for placeholder imagery, ensuring all graphics are embedded directly in HTML.
-- The document structure is simple and easy to extend with additional articles.
+- **Simplicity**: Flat navigation hierarchy makes the site easy to understand and traverse
+- **User-Centric**: Multiple pathways to return home ensure users never feel trapped
+- **Consistency**: All pages maintain a unified look and navigation pattern
+- **Accessibility**: Clear navigation labels and back-links make the site navigable for all users
+
+## Scalability Considerations
+
+Future enhancements may include:
+- Additional subordinate pages (extend the current three-page model)
+- Secondary navigation between related subordinate pages
+- Breadcrumb navigation for improved wayfinding on deeper hierarchies
+- Dynamic navigation menus

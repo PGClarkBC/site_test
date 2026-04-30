@@ -1,35 +1,42 @@
-# Contributing
+# Contributing Guidelines
 
-## How to contribute
+Thank you for contributing to this website project. This document describes the visual design and accessibility requirements that developers must follow when implementing typography, colors, and interactive elements.
 
-Suggestions and edits are welcome. This repository is a static website for The Test Lab magazine, so contributions should keep the implementation simple and safe for GitHub Pages.
+## Typography Standards
 
-### Recommended workflow
+- All website headlines must use the font **"Times New Roman"**.
+- Article body text must use the font **"Courier"**.
+- Menu text must also use **"Courier"**, with all menu items displayed in **bold**.
+- All article body text should be equivalent to **12 point** size for readability and consistency.
 
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Edit HTML pages or documentation files directly.
-4. Commit updates with clear messages.
-5. Open a pull request for review.
+## Color and Contrast
 
-## Editing content
+- Use **pure white** text color (`#FFFFFF`) for all fonts.
+- Place text on a **dark background** to ensure high contrast and readability.
+- Avoid low-contrast color combinations; text must always be easy to read.
 
-- Update `index.html` to add or revise article cards.
-- Update `article1.html` through `article5.html` to change headlines, body text, or SVG placeholders.
-- Keep styling inline in HTML attributes; avoid adding external CSS files.
+## Links and Interactive Elements
 
-## Maintaining the site
+- All links should be styled as **buttons**.
+- Buttons must have **rounded corners**.
+- Add **hover animation** to buttons whenever possible so users can clearly see when a control is interactive.
 
-- Keep all pages static and self-contained.
-- Use inline SVG for graphics so images remain embedded in HTML.
-- Preserve the modern blue-and-white visual system for consistency.
+## Best Practices
 
-## Publishing
+- Keep the visual hierarchy consistent across the site.
+- Use the specified fonts for their intended roles rather than mixing additional font families.
+- Ensure button states (default, hover, active) are visually distinct.
+- Test the site on multiple screen sizes and devices to confirm the typography and button interactions remain clear.
 
-- The site can be hosted on GitHub Pages by setting the repository source to the `main` branch.
-- Ensure `index.html` is present at the repository root.
-- Validate page links after any modification.
+## Review Checklist
 
-## Contact
+Before submitting changes, verify that:
 
-For editorial or technical questions, use the footer contact email provided on the pages.
+- [ ] Headlines use **"Times New Roman"**.
+- [ ] Article body text uses **"Courier"** at **12 point** equivalent.
+- [ ] Menu text uses **bold Courier**.
+- [ ] Text is **pure white** on a dark background.
+- [ ] Every link appears as a rounded button.
+- [ ] Buttons include a hover animation or visual hover cue.
+
+Thank you for helping keep the website design consistent and accessible.

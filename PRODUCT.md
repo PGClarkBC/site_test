@@ -1,27 +1,27 @@
 # Product Overview
 
-## The Test Lab Magazine
+## Product Summary
 
-The Test Lab is a static magazine website built with only HTML, inline CSS, and inline SVG graphics. The site presents a modern blue-and-white editorial brand with a primary landing page and five individual article pages.
+This website is an online store specializing in rare musical instruments and instrument restoration services. The store connects serious collectors, professional musicians, and enthusiasts with unique, hard-to-find instruments and trusted restoration expertise.
 
-## User Experience
+## Product Offering
 
-- Visitors land on a polished magazine front page with a large Times Roman-style masthead.
-- Five story cards are displayed in a responsive grid.
-- Each card includes a headline, brief summary, and inline SVG placeholder image.
-- Clicking an article card navigates to a dedicated secondary page with the full story.
-- Article pages include a larger inline SVG graphic, rich editorial text, and a back link to the front page.
-- The footer appears on every page and includes contact information, an address, and social media links.
+### Rare Musical Instruments
+- Curated inventory of rare, vintage, and collectible musical instruments
+- Instruments may include antique violins, vintage guitars, historic woodwinds, early brass instruments, and other specialty pieces
+- Each listing includes instrument details, history, condition, and provenance when available
 
-## Goals
+### Instrument Restoration Services
+- Professional restoration and repair services for musical instruments
+- Services focus on preserving historical value while restoring playability and structural integrity
+- Available for both instruments purchased through the store and customer-owned instruments brought in for repair
 
-- Provide a clean magazine browsing experience without external dependencies.
-- Use a blue-and-white palette to feel modern, calm, and editorial.
-- Keep the site fully compatible with GitHub Pages by using only static files.
+## Key Customer Value
+- Access to rare and unique instruments not typically available through mainstream retailers
+- Expert restoration services ensure instruments remain playable and well-maintained
+- Support for collectors and musicians seeking both acquisition and preservation of valuable musical instruments
 
-## Key Features
-
-- Landing page with headline, description, and featured article teasers.
-- Five secondary article pages: each with a title, image, and complete story.
-- Fully inline styling and SVG artwork for portability.
-- Consistent magazine navigation and branding across all pages.
+## Product Goals
+- Provide a high-quality shopping experience for buyers of rare instruments
+- Maintain trust through transparent descriptions, provenance details, and restoration expertise
+- Offer restoration as a complementary service to extend the lifetime and value of rare instruments
