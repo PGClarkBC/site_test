@@ -40,6 +40,7 @@ Landing Page (index.html)
 - **Responsibility**: Keep image assets organized in a dedicated directory so pages can reference them consistently
 - **Key Directory**:
   - `site-graphics/`: holds image and asset files used by the site, including product visuals and supporting illustrations
+- **Sourcing**: Use trusted public-domain or Creative Commons image repositories such as Wikipedia/Wikimedia Commons, and explicitly avoid downloading images or content from example.com.
 
 ## Navigation Flow
 

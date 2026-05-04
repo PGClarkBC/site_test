@@ -38,3 +38,4 @@ See [contributing.md](contributing.md) for detailed design and accessibility gui
 ## Asset Directory
 
 - `site-graphics/`: holds image and asset files used by the website, including product visuals and supporting illustrations
+- Image assets should be sourced only from Wikipedia, Wikimedia Commons, or Creative Commons repositories. Do not download or use images or content from example.com.
