@@ -34,3 +34,7 @@ See [contributing.md](contributing.md) for detailed design and accessibility gui
 - [PRODUCT.md](PRODUCT.md): Product overview and value proposition
 - [ARCHITECTURE.md](ARCHITECTURE.md): Website structure and navigation design
 - [contributing.md](contributing.md): Development and design standards
+
+## Asset Directory
+
+- `site-graphics/`: holds image and asset files used by the website, including product visuals and supporting illustrations

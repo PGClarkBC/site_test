@@ -35,6 +35,12 @@ Landing Page (index.html)
   - "Back to Landing Page" or "Home" link for navigation return
   - Consistent styling with the landing page
 
+### Shared Assets
+- **Purpose**: Store shared image and media files that support the website's visual presentation
+- **Responsibility**: Keep image assets organized in a dedicated directory so pages can reference them consistently
+- **Key Directory**:
+  - `site-graphics/`: holds image and asset files used by the site, including product visuals and supporting illustrations
+
 ## Navigation Flow
 
 1. Users land on the **Landing Page**
