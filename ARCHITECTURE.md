@@ -2,7 +2,7 @@
 
 ## Overview
 
-This website follows a simple hierarchical structure consisting of a central landing page that serves as the primary entry point and navigation hub, with three subordinate pages accessible from the landing page.
+This website follows a simple hierarchical structure consisting of a central landing page that serves as the primary entry point and navigation hub, with four subordinate pages accessible from the landing page.
 
 ## Architecture Diagram
 
@@ -10,7 +10,8 @@ This website follows a simple hierarchical structure consisting of a central lan
 Landing Page (index.html)
     ├── Subordinate Page 1
     ├── Subordinate Page 2
-    └── Subordinate Page 3
+    ├── Subordinate Page 3
+    └── Subordinate Page 4
 
 (Each subordinate page links back to Landing Page)
 ```

@@ -27,6 +27,8 @@ Thank you for contributing to this website project. This document describes the 
 - Use the specified fonts for their intended roles rather than mixing additional font families.
 - Ensure button states (default, hover, active) are visually distinct.
 - Test the site on multiple screen sizes and devices to confirm the typography and button interactions remain clear.
+- Source images only from trusted repositories such as Wikipedia, Wikimedia Commons, or Creative Commons licensed collections.
+- Do not download or use images or content from example.com or any unrelated placeholder domains.
 
 ## Review Checklist
 
@@ -38,5 +40,7 @@ Before submitting changes, verify that:
 - [ ] Text is **pure white** on a dark background.
 - [ ] Every link appears as a rounded button.
 - [ ] Buttons include a hover animation or visual hover cue.
+- [ ] Images are sourced only from Wikipedia, Wikimedia Commons, or Creative Commons repositories.
+- [ ] No images or content have been downloaded from example.com.
 
 Thank you for helping keep the website design consistent and accessible.
