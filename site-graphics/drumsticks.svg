@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Vintage drumsticks illustration">
+  <rect width="400" height="220" fill="#111"/>
+  <g stroke="#fff" stroke-width="10" stroke-linecap="round">
+    <path d="M75 80 C100 90, 130 100, 175 100"/>
+    <path d="M85 95 C110 105, 140 115, 185 115"/>
+    <path d="M250 110 C275 120, 305 132, 345 140"/>
+    <path d="M260 125 C285 135, 315 147, 355 155"/>
+    <circle cx="68" cy="75" r="18" fill="#fff"/>
+    <circle cx="340" cy="144" r="18" fill="#fff"/>
+  </g>
+  <text x="20" y="210" fill="#ccc" font-family="Courier, monospace" font-size="18">Vintage Drumsticks</text>
+</svg>
