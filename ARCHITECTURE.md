@@ -41,12 +41,13 @@ Landing Page (index.html)
 - **Responsibility**: Keep image assets organized in a dedicated directory so pages can reference them consistently
 - **Key Directory**:
   - `site-graphics/`: holds image and asset files used by the site, including product visuals and supporting illustrations
+- **Usage**: Download all website images into `site-graphics/` and reference those local files from every HTML page.
 - **Sourcing**: Use trusted public-domain or Creative Commons image repositories such as Wikipedia/Wikimedia Commons, and explicitly avoid downloading images or content from example.com.
 
 ## Navigation Flow
 
 1. Users land on the **Landing Page**
-2. From the landing page, users can navigate to any of the three **Subordinate Pages** via direct links
+2. From the landing page, users can navigate to any of the four **Subordinate Pages** via direct links
 3. From any **Subordinate Page**, users can return to the **Landing Page** using the back/home link
 4. Navigation is bidirectional but limited: subordinate pages do not link to each other directly
 

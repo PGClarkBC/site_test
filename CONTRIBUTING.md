@@ -28,6 +28,8 @@ Thank you for contributing to this website project. This document describes the 
 - Ensure button states (default, hover, active) are visually distinct.
 - Test the site on multiple screen sizes and devices to confirm the typography and button interactions remain clear.
 - Source images only from trusted repositories such as Wikipedia, Wikimedia Commons, or Creative Commons licensed collections.
+- Download all site images into the local `site-graphics/` folder before using them.
+- Link all image tags to the local `site-graphics/` copies, not remote image URLs.
 - Do not download or use images or content from example.com or any unrelated placeholder domains.
 
 ## Review Checklist
@@ -41,6 +43,8 @@ Before submitting changes, verify that:
 - [ ] Every link appears as a rounded button.
 - [ ] Buttons include a hover animation or visual hover cue.
 - [ ] Images are sourced only from Wikipedia, Wikimedia Commons, or Creative Commons repositories.
+- [ ] All site images were downloaded to `site-graphics/` before being added to the site.
+- [ ] All image tags reference local `site-graphics/` files, not remote URLs.
 - [ ] No images or content have been downloaded from example.com.
 
 Thank you for helping keep the website design consistent and accessible.

@@ -38,4 +38,6 @@ See [contributing.md](contributing.md) for detailed design and accessibility gui
 ## Asset Directory
 
 - `site-graphics/`: holds image and asset files used by the website, including product visuals and supporting illustrations
+- Download all website images into the local `site-graphics/` folder before linking them in HTML pages.
+- All image references on the site must point to local `site-graphics/` files rather than remote URLs.
 - Image assets should be sourced only from Wikipedia, Wikimedia Commons, or Creative Commons repositories. Do not download or use images or content from example.com.
