@@ -20,7 +20,7 @@ Landing Page (index.html)
 
 ### Landing Page
 - **Purpose**: Serves as the main entry point and navigation hub for the website
-- **Responsibility**: Provides navigation links to all three subordinate pages
+- **Responsibility**: Provides navigation links to all four subordinate pages
 - **Key Elements**:
   - Navigation menu or link section directing users to each subordinate page
   - Site title/branding

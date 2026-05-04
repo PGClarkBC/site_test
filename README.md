@@ -16,7 +16,7 @@ This project contains the documentation and specifications for an online store w
 The website follows a simple hierarchical structure:
 
 - **Landing Page**: Main entry point with navigation to all sections
-- **Three Subordinate Pages**: Dedicated content pages accessible from the landing page
+- **Four Subordinate Pages**: Dedicated content pages accessible from the landing page
 
 All pages maintain consistent styling and bidirectional navigation.
 
