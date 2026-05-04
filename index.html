@@ -2,49 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rare Musical Instruments Online Store</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: #111;
-      color: #fff;
-      font-family: Courier, monospace;
-    }
-    header, footer {
-      background: #161616;
-      padding: 20px;
-      text-align: center;
-    }
-    h1, h2 {
-      font-family: "Times New Roman", Times, serif;
-      margin: 0 0 12px;
-    }
-    .content {
-      padding: 32px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    .button-link {
-      display: inline-block;
-      margin-top: 18px;
-      padding: 14px 22px;
-      background: #222;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 999px;
-      transition: background 0.2s ease, transform 0.2s ease;
-      font-weight: bold;
-    }
-    .button-link:hover {
-      background: #444;
-      transform: translateY(-1px);
-    }
-    .note {
-      margin-top: 18px;
-      color: #ccc;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
@@ -53,14 +13,31 @@
   </header>
 
   <main class="content">
-    <h2>Featured Instruments</h2>
-    <p>This site showcases rare instruments from curated collections, including museum-quality brass and sterling silver pieces from the 1820s and early 20th century vintage accessories.</p>
-    <div>
-      <a href="antique-trumpet.html" class="button-link">View Antique Trumpet</a>
-      <a href="drumsticks.html" class="button-link">View Vintage Drumsticks</a>
-      <a href="stradivarius.html" class="button-link">View Flagship Stradivarius</a>
-    </div>
-    <p class="note">Every subordinate page includes a matching header and footer, with clean navigation back to the landing page.</p>
+    <section class="hero">
+      <span class="eyebrow">Curated Collection</span>
+      <h2>Modern craftsmanship meets historic rarity</h2>
+      <p>Discover museum-quality instruments and restoration-ready service in a polished browsing experience designed for collectors, musicians, and discerning enthusiasts.</p>
+    </section>
+
+    <section class="featured-grid">
+      <article class="card">
+        <h3>Antique Trumpet</h3>
+        <p>Classic 1820s brass with sterling silver accents, preserved for collectors and performing arts displays.</p>
+        <a href="antique-trumpet.html" class="button-link primary-button">View Antique Trumpet</a>
+      </article>
+      <article class="card">
+        <h3>Vintage Drumsticks</h3>
+        <p>Early 20th century hickory sticks with authentic wear patterns, ideal for historic percussion collections.</p>
+        <a href="drumsticks.html" class="button-link primary-button">View Vintage Drumsticks</a>
+      </article>
+      <article class="card">
+        <h3>Flagship Stradivarius</h3>
+        <p>Explore a rare Cremonese violin offering with private auction access for serious collectors only.</p>
+        <a href="stradivarius.html" class="button-link primary-button">View Flagship Stradivarius</a>
+      </article>
+    </section>
+
+    <p class="note">Every subordinate page includes consistent site branding, clear navigation, and local image assets managed in `site-graphics/`.</p>
   </main>
 
   <footer>

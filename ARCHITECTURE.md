@@ -43,6 +43,7 @@ Landing Page (index.html)
   - `site-graphics/`: holds image and asset files used by the site, including product visuals and supporting illustrations
 - **Usage**: Download all website images into `site-graphics/` and reference those local files from every HTML page.
 - **Sourcing**: Use trusted public-domain or Creative Commons image repositories such as Wikipedia/Wikimedia Commons, and explicitly avoid downloading images or content from example.com.
+- **Style System**: The site uses a shared `styles.css` stylesheet to enforce consistent modern color, spacing, and responsive layout rules.
 
 ## Navigation Flow
 
@@ -55,8 +56,8 @@ Landing Page (index.html)
 
 - **Simplicity**: Flat navigation hierarchy makes the site easy to understand and traverse
 - **User-Centric**: Multiple pathways to return home ensure users never feel trapped
-- **Consistency**: All pages maintain a unified look and navigation pattern
-- **Accessibility**: Clear navigation labels and back-links make the site navigable for all users
+- **Consistency**: All pages maintain a unified look, modern layout, and shared style system
+- **Accessibility**: High contrast, large text blocks, clear buttons, and responsive spacing keep the site easy to use on all devices
 
 ## Scalability Considerations
 

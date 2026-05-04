@@ -8,7 +8,8 @@ This project contains the documentation and specifications for an online store w
 
 - **Rare Instruments Inventory**: Curated collection of antique violins, vintage guitars, historic woodwinds, and other collectible instruments with detailed provenance.
 - **Restoration Services**: Professional repair and restoration services to preserve historical value while maintaining playability.
-- **Simple Website Architecture**: Clean, hierarchical structure with a central landing page and three subordinate pages for easy navigation.
+- **Simple Website Architecture**: Clean, hierarchical structure with a central landing page and four subordinate pages for easy navigation.
+- **Modern Layout**: Responsive hero sections, card-based navigation, and a shared `styles.css` stylesheet for consistent visual design.
 
 ## Architecture
 
@@ -22,8 +23,9 @@ All pages maintain consistent styling and bidirectional navigation.
 ## Design Guidelines
 
 - **Typography**: Times New Roman for headlines, Courier for body text and menus
-- **Color Scheme**: White text on dark backgrounds for high contrast
-- **Interactive Elements**: Rounded button-style links with hover animations
+- **Color Scheme**: Soft ivory text, warm gold accents, and deep charcoal backgrounds for a modern yet readable palette
+- **Layout**: Use hero sections, card panels, and generous spacing to support a polished, responsive page experience
+- **Interactive Elements**: Rounded button-style links with hover transitions and strong visual contrast
 
 ## Contributing
 
