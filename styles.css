@@ -43,6 +43,25 @@ header {
   gap: 18px;
 }
 
+header .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-text {
+  display: grid;
+  gap: 6px;
+}
+
+.site-logo {
+  width: 52px;
+  height: auto;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
 header h1,
 .hero h2,
 .page-title {
